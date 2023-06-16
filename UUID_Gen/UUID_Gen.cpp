@@ -218,12 +218,14 @@ int main(int argc, char *argv[])
              << "  -d   disable GUID curly braces\n"
              << "  -d=delim\n"
              << "       delim=  to disable GUID curly braces\n"
-             << "       delim=? for single char ? on both ends\n"
+             << "       delim=x for single char x on both ends\n"
              << "       delim=xy for x at head and y at tail\n"
              << "       delim=xxx,yyy for xxx at head and y at tail\n"
              << "  -n=#\n"
              << "       Generate a number of GUIDs, one to a line\n"
              << "\n"
+             << "  Version 1.2, 2023-06-16\n"
+             << "    KSM minor tweak to help\n"
              << "  Version 1.1, 2022-09-08\n"
              << "    David Smart, David@Smart-Family.net, added -n=# command, tweaked the help, shortened the name.\n"
              << "  Version 1.0, 2020-08-04\n"
@@ -254,5 +256,5 @@ int main(int argc, char *argv[])
 }
 
 
-// Kerry S. Martin, martin@wild-wood.net, 2020-08-04
+// Kerry S. Martin, martin@wild-wood.net, 2020-08-04, 2023-06-16
 // David Smart, David@Smart-Family.net, 2022-09-08
